@@ -6,24 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo的主题更换与使用教程 | WanRu&#39;s Blog</title>
+  <title>Vue.js表单与v-model | WanRu&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一、关于Hexo的主题更换如何更换我们喜欢的Hexo主题呢？网上有很多好看简洁的Hexo主题可以更换，下面将以Yilia这款我喜欢的主题为例子，进行更换。首先你需要找到你喜欢的主题下载地址，Yilia主题传送门">
-<meta name="keywords" content="hexo">
+  <meta name="description" content="vue.js提供了v-model指令，用于在表单类元素上双向绑定数据  基本用法在输入框上和文本域上的用法1234567891011121314151617&amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;在输入框中的用法&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;quot;text&amp;quot; placeholder=&amp;quot;输入内容&amp;quot; v-model=&amp;q">
+<meta name="keywords" content="vue的学习">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo的主题更换与使用教程">
-<meta property="og:url" content="http://yoursite.com/2019/03/22/new-article/index.html">
+<meta property="og:title" content="Vue.js表单与v-model">
+<meta property="og:url" content="http://yoursite.com/2019/06/23/vue学习5/index.html">
 <meta property="og:site_name" content="WanRu&#39;s Blog">
-<meta property="og:description" content="一、关于Hexo的主题更换如何更换我们喜欢的Hexo主题呢？网上有很多好看简洁的Hexo主题可以更换，下面将以Yilia这款我喜欢的主题为例子，进行更换。首先你需要找到你喜欢的主题下载地址，Yilia主题传送门">
+<meta property="og:description" content="vue.js提供了v-model指令，用于在表单类元素上双向绑定数据  基本用法在输入框上和文本域上的用法1234567891011121314151617&amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;在输入框中的用法&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;quot;text&amp;quot; placeholder=&amp;quot;输入内容&amp;quot; v-model=&amp;q">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://s2.ax1x.com/2019/03/19/AuVAHI.png">
-<meta property="og:image" content="https://s2.ax1x.com/2019/03/19/AuZuIx.png">
-<meta property="og:image" content="https://s2.ax1x.com/2019/03/22/A8gV8U.png">
-<meta property="og:updated_time" content="2019-08-29T17:41:11.782Z">
+<meta property="og:updated_time" content="2019-10-08T07:12:21.895Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo的主题更换与使用教程">
-<meta name="twitter:description" content="一、关于Hexo的主题更换如何更换我们喜欢的Hexo主题呢？网上有很多好看简洁的Hexo主题可以更换，下面将以Yilia这款我喜欢的主题为例子，进行更换。首先你需要找到你喜欢的主题下载地址，Yilia主题传送门">
-<meta name="twitter:image" content="https://s2.ax1x.com/2019/03/19/AuVAHI.png">
+<meta name="twitter:title" content="Vue.js表单与v-model">
+<meta name="twitter:description" content="vue.js提供了v-model指令，用于在表单类元素上双向绑定数据  基本用法在输入框上和文本域上的用法1234567891011121314151617&amp;lt;div id=&amp;quot;app&amp;quot;&amp;gt;在输入框中的用法&amp;lt;br /&amp;gt;&amp;lt;input type=&amp;quot;text&amp;quot; placeholder=&amp;quot;输入内容&amp;quot; v-model=&amp;q">
   
     <link rel="alternative" href="/atom.xml" title="WanRu&#39;s Blog" type="application/atom+xml">
   
@@ -153,46 +149,58 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-new-article" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-vue学习5" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hexo的主题更换与使用教程
+      Vue.js表单与v-model
     </h1>
   
 
         
-        <a href="/2019/03/22/new-article/" class="archive-article-date">
-  	<time datetime="2019-03-22T12:00:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-22</time>
+        <a href="/2019/06/23/vue学习5/" class="archive-article-date">
+  	<time datetime="2019-06-23T07:09:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-06-23</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="一、关于Hexo的主题更换"><a href="#一、关于Hexo的主题更换" class="headerlink" title="一、关于Hexo的主题更换"></a>一、关于Hexo的主题更换</h3><p>如何更换我们喜欢的Hexo主题呢？<br>网上有很多好看简洁的Hexo主题可以更换，下面将以Yilia这款我喜欢的主题为例子，进行更换。<br>首先你需要找到你喜欢的主题下载地址，<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">Yilia主题传送门</a><br><img src="https://s2.ax1x.com/2019/03/19/AuVAHI.png" alt><a id="more"></a><br>点击<strong>Clone or download</strong>后将链接复制下来<br>找到Hexo文件的位置，进入themes文件夹内，这个文件夹就是用来放hexo主题的位置的。在themes文件夹下右键选择<strong>Git Bash Here</strong><br>输入命令,git clone +你复制的链接</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/litten/hexo-theme-yilia.git</span><br></pre></td></tr></table></figure>
+        <blockquote>
+<p><strong>vue.js提供了v-model指令，用于在表单类元素上双向绑定数据</strong></p>
+</blockquote>
+<h2 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h2><h3 id="在输入框上和文本域上的用法"><a href="#在输入框上和文本域上的用法" class="headerlink" title="在输入框上和文本域上的用法"></a>在输入框上和文本域上的用法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">在输入框中的用法&lt;br /&gt;</span><br><span class="line">&lt;input type=&quot;text&quot; placeholder=&quot;输入内容&quot; v-model=&quot;inText&quot;/&gt;</span><br><span class="line">输入框中输入的内容是:&#123;&#123;inText&#125;&#125;&lt;br/&gt;</span><br><span class="line">在文本域中的用法&lt;br /&gt;</span><br><span class="line">&lt;textarea v-model=&quot;inTextarea&quot; cols=&quot;30&quot; rows=&quot;5&quot;&gt;&lt;/textarea&gt;</span><br><span class="line">文本域中输入的内容是:&#123;&#123;inTextarea&#125;&#125;&lt;br/&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">   var app=new Vue(&#123;</span><br><span class="line">    el:&quot;#app&quot;,</span><br><span class="line">    data:&#123;</span><br><span class="line">        inText:&apos;&apos;,</span><br><span class="line">        inTextarea:&apos;&apos;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>温馨小提示：</p>
-<ol>
-<li>此时你应该注意一下你所在文件路径是否正确，应该是在themes文件夹下的</li>
-<li>此时的粘贴快捷键不是ctrl+v,而是Insert。</li>
-</ol>
-<p>按下回车键后就可以安心等待就可以了<br><img src="https://s2.ax1x.com/2019/03/19/AuZuIx.png" alt><br>下载完成后，你就可以看到themes文件夹下出现了一个新的名为hexo-theme-yilia文件夹，这个就是我们刚刚下载的主题。<br>返回到上一层，找到_config.yml这个文件，用你的编辑器打开它，找到theme属性，更改属性值</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: hexo-theme-yilia</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><strong>注意：使用v-model后，表单显示的值只依赖所绑定的数据，不再关心其初始值</strong><br><strong>使用v-model时，输入汉字时，在拼音阶段是不会更新数据的，只有在选定词组之后才会更新，如果需要实时更新，用@input来代替v-model，具体写法使用时查阅即可</strong></p>
+<h3 id="单选按钮"><a href="#单选按钮" class="headerlink" title="单选按钮"></a>单选按钮</h3><h4 id="单个单选按钮"><a href="#单个单选按钮" class="headerlink" title="单个单选按钮"></a>单个单选按钮</h4><p>不需要v-model，直接使用v-bind:checked绑定一个布尔值，为真时选中，为否是不选中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">(1)、单个单选按钮&lt;br /&gt;</span><br><span class="line">&lt;input type=&quot;radio&quot; :checked=&quot;picked&quot; /&gt;苹果&lt;br /&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">   var app=new Vue(&#123;</span><br><span class="line">    el:&quot;#app&quot;,</span><br><span class="line">    data:&#123;</span><br><span class="line">        picked:false</span><br><span class="line">     &#125;</span><br><span class="line">     &#125;)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>将属性值改为刚刚下载的主题名，将文件进行保存<br>输入命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean //清除一下缓存</span><br><span class="line">hexo g  //生成静态页面</span><br><span class="line">hexo s //开启本地服务器</span><br></pre></td></tr></table></figure>
+<h4 id="多个单选按钮"><a href="#多个单选按钮" class="headerlink" title="多个单选按钮"></a>多个单选按钮</h4><p>需要v-model配合value使用，绑定数据的值与value一致时就会选中该项</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">(2)、多个单选按钮&lt;br /&gt;</span><br><span class="line">&lt;input type=&quot;radio&quot; v-model=&quot;pickme&quot; value=&quot;苹果&quot; /&gt;苹果&lt;br /&gt;</span><br><span class="line">&lt;input type=&quot;radio&quot; v-model=&quot;pickme&quot; value=&quot;香蕉&quot; /&gt;香蕉&lt;br /&gt;</span><br><span class="line">&lt;input type=&quot;radio&quot; v-model=&quot;pickme&quot; value=&quot;桃子&quot; /&gt;桃子&lt;br /&gt;</span><br><span class="line">现在选中的选项是:&#123;&#123;pickme&#125;&#125;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">   var app=new Vue(&#123;</span><br><span class="line">    el:&quot;#app&quot;,</span><br><span class="line">    data:&#123;</span><br><span class="line">        pickme:&apos;&apos;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>这时会出现一个端口号，通过浏览器打开这个端口号（一般端口号为4000），你就可以看到更改之后的主题啦<br>一般主题的开发者都会在README.md里面描述该主题的配置信息，根据配置文档中的内容进行更改就可以了</p>
-<h3 id="二、如何发表新的文章"><a href="#二、如何发表新的文章" class="headerlink" title="二、如何发表新的文章"></a>二、如何发表新的文章</h3><p>输入命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;new article&quot;</span><br></pre></td></tr></table></figure>
+<h3 id="复选框"><a href="#复选框" class="headerlink" title="复选框"></a>复选框</h3><h4 id="单独使用"><a href="#单独使用" class="headerlink" title="单独使用"></a>单独使用</h4><p>与单选按钮不同的是，复选框单独使用时可以使用v-model绑定一个布尔值</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;checkbox&quot; v-model=&quot;checked&quot;/&gt;铅笔&lt;br /&gt;</span><br><span class="line">    &lt;script&gt;</span><br><span class="line">       var app=new Vue(&#123;</span><br><span class="line">        el:&quot;#app&quot;,</span><br><span class="line">        data:&#123;</span><br><span class="line">            checked:false</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    &lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>会在对应的路径下创建一个名为“new article”的markdown文件<br><img src="https://s2.ax1x.com/2019/03/22/A8gV8U.png" alt><br>只要在这个文件中用markdown语言进行编写文章内容即可，保存后，输入命令<br>```<br>hexo g     //生成静态页面<br>hexo s    //启动本地服务器进行查看<br>hexo d   //查看后没有问题即可部署到github上</p>
+<h4 id="组合使用"><a href="#组合使用" class="headerlink" title="组合使用"></a>组合使用</h4><p>与多个单选按钮的写法一样，也是v-model和value一起，但是绑定的数据类型必须是数组<br>在勾选时候，value的值会自动push到绑定的数据数组中</p>
+<h3 id="下拉列表"><a href="#下拉列表" class="headerlink" title="下拉列表"></a>下拉列表</h3><h4 id="单选"><a href="#单选" class="headerlink" title="单选"></a>单选</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;select v-model=&quot;other&quot;&gt;</span><br><span class="line">    &lt;option value=&quot;天津&quot;&gt;天津&lt;/option&gt;</span><br><span class="line">    &lt;option value=&quot;北京&quot;&gt;北京&lt;/option&gt;</span><br><span class="line">    &lt;option value=&quot;上海&quot;&gt;上海&lt;/option&gt;</span><br><span class="line">&lt;/select&gt;</span><br><span class="line">&lt;p&gt;选择的选项是&#123;&#123;other&#125;&#125;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
 
+<p>绑定的other数据的数据类型为字符串<br><strong><option>中含有value属性时v-model会优先匹配value的值，如果没有则直接匹配</option><option>的text</option></strong></p>
+<h4 id="多选"><a href="#多选" class="headerlink" title="多选"></a>多选</h4><p>只需添加multiple属性</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;select v-model=&quot;others&quot; multiple&gt;</span><br><span class="line">    &lt;option value=&quot;天津&quot;&gt;天津&lt;/option&gt;</span><br><span class="line">    &lt;option value=&quot;北京&quot;&gt;北京&lt;/option&gt;</span><br><span class="line">    &lt;option value=&quot;上海&quot;&gt;上海&lt;/option&gt;</span><br><span class="line">&lt;/select&gt;</span><br><span class="line">&lt;p&gt;选择的选项是&#123;&#123;others&#125;&#125;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+
+<p>注意：绑定的others数据的数据类型是数组</p>
+<h2 id="修饰符"><a href="#修饰符" class="headerlink" title="修饰符"></a>修饰符</h2><h3 id="lazy"><a href="#lazy" class="headerlink" title=".lazy"></a>.lazy</h3><p>在输入框中，v-mode默认是在input事件中同步输入框的数据，使用修饰符.lazy会使与输入框绑定的数据不会实时改变，而是在失去焦点或是按回车的时候才更新。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;text&quot; v-model.lazy=&quot;msg&quot; /&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="number"><a href="#number" class="headerlink" title=".number"></a>.number</h3><p>使用修饰符.number可以将输入的数据转换成Number类型，否则就算是输入的数据是数字，但其实是String类型</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;text&quot; v-model.number=&quot;msg&quot; /&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="trim"><a href="#trim" class="headerlink" title=".trim"></a>.trim</h3><p>.trim修饰符可以自动过滤输入的首尾空格</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;input type=&quot;text&quot; v-model.trim=&quot;msg&quot; /&gt;</span><br></pre></td></tr></table></figure>
       
 
       
@@ -205,7 +213,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">vue的学习</a>
         		</li>
       		
 		</ul>
@@ -261,7 +269,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/03/22/new-article/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/06/23/vue学习5/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -275,18 +283,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/04/12/css3实现div旋转/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          css3实现div旋转
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/03/22/new/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hexo的安装与部署</div>
+    <a href="/2019/06/15/vue学习4/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">vue.js中的内置指令</div>
       <i class="icon-circle-right"></i>
     </a>
   

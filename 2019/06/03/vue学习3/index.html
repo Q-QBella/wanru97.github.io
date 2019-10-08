@@ -6,24 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo的主题更换与使用教程 | WanRu&#39;s Blog</title>
+  <title>Vue的v-bind指令 | WanRu&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一、关于Hexo的主题更换如何更换我们喜欢的Hexo主题呢？网上有很多好看简洁的Hexo主题可以更换，下面将以Yilia这款我喜欢的主题为例子，进行更换。首先你需要找到你喜欢的主题下载地址，Yilia主题传送门">
-<meta name="keywords" content="hexo">
+  <meta name="description" content="在之前的学习中了解了v-bind指令，今天学习如何绑定class和绑定style绑定class的多种方式，绑定style的多种方式  绑定class的几种方式对象语法123456789101112131415161718192021&amp;lt;style&amp;gt; .box&amp;#123;        border:1px solid #ccc;        height:30px;        w">
+<meta name="keywords" content="vue的学习">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo的主题更换与使用教程">
-<meta property="og:url" content="http://yoursite.com/2019/03/22/new-article/index.html">
+<meta property="og:title" content="Vue的v-bind指令">
+<meta property="og:url" content="http://yoursite.com/2019/06/03/vue学习3/index.html">
 <meta property="og:site_name" content="WanRu&#39;s Blog">
-<meta property="og:description" content="一、关于Hexo的主题更换如何更换我们喜欢的Hexo主题呢？网上有很多好看简洁的Hexo主题可以更换，下面将以Yilia这款我喜欢的主题为例子，进行更换。首先你需要找到你喜欢的主题下载地址，Yilia主题传送门">
+<meta property="og:description" content="在之前的学习中了解了v-bind指令，今天学习如何绑定class和绑定style绑定class的多种方式，绑定style的多种方式  绑定class的几种方式对象语法123456789101112131415161718192021&amp;lt;style&amp;gt; .box&amp;#123;        border:1px solid #ccc;        height:30px;        w">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://s2.ax1x.com/2019/03/19/AuVAHI.png">
-<meta property="og:image" content="https://s2.ax1x.com/2019/03/19/AuZuIx.png">
-<meta property="og:image" content="https://s2.ax1x.com/2019/03/22/A8gV8U.png">
-<meta property="og:updated_time" content="2019-08-29T17:41:11.782Z">
+<meta property="og:updated_time" content="2019-10-08T07:02:58.198Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo的主题更换与使用教程">
-<meta name="twitter:description" content="一、关于Hexo的主题更换如何更换我们喜欢的Hexo主题呢？网上有很多好看简洁的Hexo主题可以更换，下面将以Yilia这款我喜欢的主题为例子，进行更换。首先你需要找到你喜欢的主题下载地址，Yilia主题传送门">
-<meta name="twitter:image" content="https://s2.ax1x.com/2019/03/19/AuVAHI.png">
+<meta name="twitter:title" content="Vue的v-bind指令">
+<meta name="twitter:description" content="在之前的学习中了解了v-bind指令，今天学习如何绑定class和绑定style绑定class的多种方式，绑定style的多种方式  绑定class的几种方式对象语法123456789101112131415161718192021&amp;lt;style&amp;gt; .box&amp;#123;        border:1px solid #ccc;        height:30px;        w">
   
     <link rel="alternative" href="/atom.xml" title="WanRu&#39;s Blog" type="application/atom+xml">
   
@@ -153,46 +149,43 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-new-article" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-vue学习3" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hexo的主题更换与使用教程
+      Vue的v-bind指令
     </h1>
   
 
         
-        <a href="/2019/03/22/new-article/" class="archive-article-date">
-  	<time datetime="2019-03-22T12:00:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-22</time>
+        <a href="/2019/06/03/vue学习3/" class="archive-article-date">
+  	<time datetime="2019-06-03T06:17:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-06-03</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="一、关于Hexo的主题更换"><a href="#一、关于Hexo的主题更换" class="headerlink" title="一、关于Hexo的主题更换"></a>一、关于Hexo的主题更换</h3><p>如何更换我们喜欢的Hexo主题呢？<br>网上有很多好看简洁的Hexo主题可以更换，下面将以Yilia这款我喜欢的主题为例子，进行更换。<br>首先你需要找到你喜欢的主题下载地址，<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">Yilia主题传送门</a><br><img src="https://s2.ax1x.com/2019/03/19/AuVAHI.png" alt><a id="more"></a><br>点击<strong>Clone or download</strong>后将链接复制下来<br>找到Hexo文件的位置，进入themes文件夹内，这个文件夹就是用来放hexo主题的位置的。在themes文件夹下右键选择<strong>Git Bash Here</strong><br>输入命令,git clone +你复制的链接</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/litten/hexo-theme-yilia.git</span><br></pre></td></tr></table></figure>
+        <blockquote>
+<p>在之前的学习中了解了v-bind指令，今天学习如何绑定class和绑定style<br>绑定class的多种方式，绑定style的多种方式</p>
+</blockquote>
+<h3 id="绑定class的几种方式"><a href="#绑定class的几种方式" class="headerlink" title="绑定class的几种方式"></a>绑定class的几种方式</h3><h4 id="对象语法"><a href="#对象语法" class="headerlink" title="对象语法"></a>对象语法</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line"> .box&#123;</span><br><span class="line">        border:1px solid #ccc;</span><br><span class="line">        height:30px;</span><br><span class="line">        width:140px;</span><br><span class="line">    &#125;</span><br><span class="line">    .active&#123;</span><br><span class="line">        background: red;</span><br><span class="line">    &#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">     &lt;div :class=&quot;&#123;&apos;box&apos;:isbox,&apos;active&apos;:isactive&#125;&quot;&gt;绑定class对象语法&lt;/div&gt; &lt;/div&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    var app = new Vue(&#123;</span><br><span class="line">        el:&apos;#app&apos;,</span><br><span class="line">        data:&#123;</span><br><span class="line">            isactive: false,</span><br><span class="line">            isbox: true</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>温馨小提示：</p>
-<ol>
-<li>此时你应该注意一下你所在文件路径是否正确，应该是在themes文件夹下的</li>
-<li>此时的粘贴快捷键不是ctrl+v,而是Insert。</li>
-</ol>
-<p>按下回车键后就可以安心等待就可以了<br><img src="https://s2.ax1x.com/2019/03/19/AuZuIx.png" alt><br>下载完成后，你就可以看到themes文件夹下出现了一个新的名为hexo-theme-yilia文件夹，这个就是我们刚刚下载的主题。<br>返回到上一层，找到_config.yml这个文件，用你的编辑器打开它，找到theme属性，更改属性值</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: hexo-theme-yilia</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>类名box依赖数据isbox，当isbox为true时，div会拥有类名box，当isbox的值为false时，div不会拥有类名box.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;div :class=&quot;&#123;&apos;类名&apos;:数据名&#125;&quot;&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 
-<p>将属性值改为刚刚下载的主题名，将文件进行保存<br>输入命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean //清除一下缓存</span><br><span class="line">hexo g  //生成静态页面</span><br><span class="line">hexo s //开启本地服务器</span><br></pre></td></tr></table></figure>
+<p>练习一个小的dome：点击按钮后，div的背景会从蓝色切换成红色，再次点击后会切换回来</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">.box&#123;</span><br><span class="line">    height:50px;</span><br><span class="line">    width:100px;</span><br><span class="line">&#125;</span><br><span class="line">.active1&#123;</span><br><span class="line">    background: red;</span><br><span class="line">&#125;</span><br><span class="line">.active2&#123;</span><br><span class="line">    background: blue;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &lt;div :class=&quot;&#123;&apos;box&apos;:isbox,&apos;active1&apos;:isactive1,&apos;active2&apos;:isactive2&#125;&quot;&gt;点击按钮改变背景的颜色&lt;/div&gt;</span><br><span class="line">    &lt;button @click=&quot;button&quot;&gt;按钮&lt;/button&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">var app = new Vue(&#123;</span><br><span class="line">    el:&quot;#app&quot;,</span><br><span class="line">    data:&#123;</span><br><span class="line">        isbox: true,</span><br><span class="line">        isactive1: true,</span><br><span class="line">        isactive2: false</span><br><span class="line">    &#125;,</span><br><span class="line">    methods:&#123;</span><br><span class="line">        button:function()&#123;</span><br><span class="line">            if(this.isactive1)&#123;</span><br><span class="line">                this.isactive1=false;</span><br><span class="line">                this.isactive2=true;</span><br><span class="line">            &#125;else&#123;</span><br><span class="line">                this.isactive1=true;</span><br><span class="line">                this.isactive2=false;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>这时会出现一个端口号，通过浏览器打开这个端口号（一般端口号为4000），你就可以看到更改之后的主题啦<br>一般主题的开发者都会在README.md里面描述该主题的配置信息，根据配置文档中的内容进行更改就可以了</p>
-<h3 id="二、如何发表新的文章"><a href="#二、如何发表新的文章" class="headerlink" title="二、如何发表新的文章"></a>二、如何发表新的文章</h3><p>输入命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;new article&quot;</span><br></pre></td></tr></table></figure>
+<p>当class的表达式过长或者是逻辑复杂时，可以绑定一个计算属性，这是一个很常见的用法。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;app2&quot;&gt;</span><br><span class="line">    &lt;div :class=&quot;classes&quot;&gt;绑定计算属性的例子&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">var app2= new Vue(&#123;</span><br><span class="line">    el:&quot;#app2&quot;,</span><br><span class="line">    data:&#123;</span><br><span class="line">        isactive1: true,</span><br><span class="line">        isactive2: false</span><br><span class="line">    &#125;,</span><br><span class="line">    computed:&#123;</span><br><span class="line">        classes:function()&#123;</span><br><span class="line">            return &#123;</span><br><span class="line">                &apos;active1&apos;:this.isactive1,</span><br><span class="line">                &apos;active2&apos;:this.isactive2</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 
-<p>会在对应的路径下创建一个名为“new article”的markdown文件<br><img src="https://s2.ax1x.com/2019/03/22/A8gV8U.png" alt><br>只要在这个文件中用markdown语言进行编写文章内容即可，保存后，输入命令<br>```<br>hexo g     //生成静态页面<br>hexo s    //启动本地服务器进行查看<br>hexo d   //查看后没有问题即可部署到github上</p>
-
+<h4 id="数组语法"><a href="#数组语法" class="headerlink" title="数组语法"></a>数组语法</h4><p>当需要应用多个 class 时， 可以使用数组语法 ， 给：class 绑定一个数组，应用一个 class<br>列表：<br>数组成员直接对应className–类名</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- &lt;div :class=&quot;[数据名1，数据名2]&quot;&gt;&lt;/div&gt; --&gt;</span><br><span class="line"> &lt;div :class=&quot;[class1，class2]&quot;&gt;例子&lt;/div&gt;</span><br><span class="line">var app = new Vue(&#123;</span><br><span class="line">        el:&quot;#app&quot;,</span><br><span class="line">        data:&#123;</span><br><span class="line">            class1: ‘active’,</span><br><span class="line">            class2: &apos;box&apos;</span><br><span class="line">        &#125;</span><br><span class="line">)&#125;</span><br></pre></td></tr></table></figure>
       
 
       
@@ -205,7 +198,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">vue的学习</a>
         		</li>
       		
 		</ul>
@@ -261,7 +254,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/03/22/new-article/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/06/03/vue学习3/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -275,18 +268,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/04/12/css3实现div旋转/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/06/15/vue学习4/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          css3实现div旋转
+          vue.js中的内置指令
         
       </div>
     </a>
   
   
-    <a href="/2019/03/22/new/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hexo的安装与部署</div>
+    <a href="/2019/05/28/vue学习2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Vue的计算属性</div>
       <i class="icon-circle-right"></i>
     </a>
   
